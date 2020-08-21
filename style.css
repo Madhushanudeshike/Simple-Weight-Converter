@@ -1,0 +1,19 @@
+.header{
+	color: green;
+	margin: 0;
+	margin-bottom: 10px;
+}
+
+.table{
+	color: black;
+	background-color: orange;
+}
+
+.converter{
+	margin: auto;
+    width: 300px;
+  	border: 1px solid black;
+  	padding: 15px;
+    overflow: auto;
+    margin-top: 20px;
+}

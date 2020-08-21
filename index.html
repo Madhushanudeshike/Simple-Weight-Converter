@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weight Converter</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="main.js"></script>
+</head>
+
+<body>
+    <div class="converter">
+        <center>
+            <h1 class="header">Weight Converter</h1>
+            <form id="weightForm">
+                <table class="table" border="1">
+                    <tbody>
+                        <tr>
+                            <td><b><center>Unit</center></b></td>
+                            <td><b><center>Number</center></b></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select id="unit">
+                                    <option value="Milligram">Milligram</option>
+                                    <option value="Gram">Gram</option>
+                                    <option value="Kilogram">Kilogram</option>
+                                </select>
+                            </td>
+                            <td>
+                                <input type="number" name="input" id="input" value="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Milligram:</td>
+                            <td>
+                                <input type="number" name="miligram" id="miligram" value="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Gram:</td>
+                            <td>
+                                <input type="number" name="gram" id="gram" value="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Kilogram:</td>
+                            <td>
+                                <input type="number" name="kilo" v id="kilo" value="0">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button type="button" onclick="resetForm()">Start Over</button>
+                            </td>
+                            <td>
+                                <button type="button" onclick="convert()">Convert</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </center>
+    </div>
+</body>
+</html>
